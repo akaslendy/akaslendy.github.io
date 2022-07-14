@@ -1,0 +1,197 @@
+* {
+ font-family: 'poppins', sans-serif;
+}
+
+#top {
+    height: 75px;
+    max-height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-left: 5%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom-color: #FFAE1A;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    height:55px;
+}
+
+nav {
+    display: flex;
+    margin-right: 8%;
+    margin-top: 70px;
+    list-style-type: none;
+    gap: 18%;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #0798BA;
+    text-shadow: -2px 1px #BBF5F8;
+}
+
+a:hover {
+    text-decoration: underline #FFAE1A;
+}
+
+#hero {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
+
+#container {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   gap: 10px;
+   padding: 0;
+
+   
+}
+
+.card1 {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2%;
+}
+.card2 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+}
+.card3 {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.one {
+   
+    background-image: url("/images/square.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid black 5px;
+}
+
+.onea {
+    opacity: 0;
+    transition: opacity 350ms ease-in-out;
+    background-color: white;
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.onea:hover {
+    opacity: .5; 
+}
+
+.two {
+    background-image: url("/images/square2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid black 5px;
+}
+
+.twob {
+    opacity: 0;
+    transition: opacity 350ms ease-in-out;
+    background-color: white;
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.twob:hover {
+    opacity: .5; 
+}
+
+.three {
+    background-image: url("/images/square3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid black 5px;
+}
+
+.threec {
+    opacity: 0;
+    transition: opacity 350ms ease-in-out;
+    background-color: white;
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.threec:hover {
+    opacity: .5; 
+}
+
+.info {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-shadow: -2px 1px #BBF5F8;
+    color: #0798BA;
+}
+
+.interests {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-shadow: -2px 1px #BBF5F8;
+    color: #0798BA;
+}
+
+.funfacts {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-shadow: -2px 1px #BBF5F8;
+    color: #0798BA;
+}
+.textone {
+    width: 500px;
+    font-size: medium;
+    border-right: solid 2px #FFAE1A;
+    padding-right: 2%;
+}
+
+.texttwo {
+    width: 500px;
+    font-size: medium;
+    border-right: solid 2px #FFAE1A;
+    padding-right: 2%;
+}
+
+.textthree {
+    width: 500px;
+    font-size: medium;
+    border-right: solid 2px #FFAE1A;
+    
+}
