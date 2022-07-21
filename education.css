@@ -65,3 +65,77 @@ a:hover {
 .navlink {
     text-decoration: none;
 }
+
+.hidden {
+    float: right;
+    margin-top: 23%;
+    
+}
+
+#hidden {
+    margin-left: 72%;
+    margin-right: 3%;
+    margin-top: 20%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 25px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #0798BA;
+        text-shadow: -3px 1px #BBF5F8;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+    
+    .underline {
+        border-top: solid 5px #FFAE1A;
+        height: 10px;
+        width: 300px;
+        margin-left: 5%;
+        margin-top: 15px;
+        
+    }
+
+    .info-1 {
+        margin-left: 2%;
+        width: 300px;
+    }
+    
+    .sectitle {
+        margin-left: 3%;
+        color: #0798BA;
+        text-transform: uppercase;
+        text-shadow: -3px 1px #BBF5F8;
+    }
+    
+    .info-2 {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    
+    .right {
+        float: right;
+        margin-right: 5%;
+       
+    }
+
+    .hidden {
+        float: right;
+        margin-top: 10%;
+        
+    }
+    
+    #hidden {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        padding: 10px;
+        display: none;
+    }
+}

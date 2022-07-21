@@ -93,15 +93,6 @@ body {
         background-size: cover;
         
     }
-    
-    
-    #interests {
-        align-content: center;
-        margin-left: 10%;
-        margin-right: 25%;
-        margin-top: 10%;
-        width: 30%;
-    }
 
     #contact {
         align-content: center;
@@ -128,4 +119,79 @@ body {
     }
 
 
+    @media only screen and (max-width: 600px) {
+        
+        .container {
+            font-size: 1.6rem;
+            gap: 5%;
+        }
+
+        h1 {
+            margin-bottom: 2px;
+            border-bottom: solid 5px #FFAE1A;
+        }
+        
+        .toptext {
+            padding-top: 15px;
+        }
+        
+        #about {
+            align-content: center;
+            margin-left: 10%;
+            margin-right: 25%;
+            width: 80%;
+        }
+        
+        .imagea {
+            display: none;
+        }
+        
+        .colora {
+            display: none;
+        }
+
+        #education {
+            align-content: center;
+            text-align: right;
+            margin-left: 40%;
+            margin-right: 25%;
+            margin-top: 10%;
+            width: 80%;
+        }
+        
+        .imageb {
+            display: none;
+        }
     
+        .colorb {
+    
+            display: none;
+            
+        }
+        
+        #contact {
+            align-content: center;
+            margin-left: 10%;
+            margin-right: 25%;
+            margin-top: 10%;
+            width: 70%;
+        }
+        
+        #footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+            width: 450px;
+        }
+    
+        .row {
+            gap: 15px;
+            height: 75px;
+            
+        }
+        
+        img {
+             max-width: 75px;
+            max-height: 75px;
+        }
+    }

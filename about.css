@@ -195,3 +195,191 @@ a:hover {
     border-right: solid 2px #FFAE1A;
     
 }
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+        margin-left: 2%;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        padding-bottom: 23px;
+        border-bottom-color: #FFAE1A;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        height: 55px;
+        width: 160px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+        margin-left: 2%;
+        margin-top: 25px;
+        list-style-type: none;
+        gap: 8%;
+    }
+    
+    li {
+        font-size: 1.5rem;
+    }
+
+    #hero {
+        
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 25%;
+        
+    }
+    
+    #container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       gap: 10px;
+       padding: 0;
+       width: 300px;
+       margin-right: 5%;
+    
+       
+    }
+    
+    .card1 {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        
+    }
+    .card2 {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    .card3 {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        
+    }
+    
+    
+    .one {
+       
+        background-image: url("/images/square.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        border: solid black 5px;
+    }
+    
+    .onea {
+        opacity: 0;
+        transition: opacity 350ms ease-in-out;
+        background-color: white;
+        height: 320px;
+        width: 320px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    
+    .onea:hover {
+        opacity: .5; 
+    }
+    
+    .two {
+        background-image: url("/images/square2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        border: solid black 5px;
+    }
+    
+    .twob {
+        opacity: 0;
+        transition: opacity 350ms ease-in-out;
+        background-color: white;
+        height: 320px;
+        width: 320px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    
+    .twob:hover {
+        opacity: .5; 
+    }
+    
+    .three {
+        background-image: url("/images/square3.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        border: solid black 5px;
+    }
+    
+    .threec {
+        opacity: 0;
+        transition: opacity 350ms ease-in-out;
+        background-color: white;
+        height: 320px;
+        width: 320px;
+        border-radius: 100%;
+        position: absolute;
+    }
+    
+    .threec:hover {
+        opacity: .5; 
+    }
+
+    .info {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        text-shadow: -2px 1px #BBF5F8;
+        color: #0798BA;
+    }
+    
+    .interests {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        text-shadow: -2px 1px #BBF5F8;
+        color: #0798BA;
+    }
+    
+    .funfacts {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        text-shadow: -2px 1px #BBF5F8;
+        color: #0798BA;
+    }
+    .textone {
+        width: 300px;
+        font-size: medium;
+        border-right: solid 2px #FFAE1A;
+        padding-right: 2%;
+    }
+    
+    .texttwo {
+        width: 300px;
+        font-size: medium;
+        border-right: solid 2px #FFAE1A;
+        padding-right: 2%;
+    }
+    
+    .textthree {
+        width: 300px;
+        font-size: medium;
+        border-right: solid 2px #FFAE1A;
+        
+    }
+}
